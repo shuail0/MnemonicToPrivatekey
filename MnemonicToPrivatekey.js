@@ -3,9 +3,9 @@ const fs = require('fs')
 const bip39 = require('bip39');
 const hdkey = require('hdkey');
 const EthereumWallet = require('ethereumjs-wallet').default;
-
+// 填入助记词
 const mnemonic = ""; 
-
+// 设定生成数量
 const wallet_amount = 51;
 
 const seed = bip39.mnemonicToSeedSync(mnemonic);
